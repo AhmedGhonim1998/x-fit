@@ -1,0 +1,63 @@
+@import './variables';
+/*******************************************no pain styles**********************************************/
+.noPain{
+    background: url(../ViewsStyles/xfit_sec1-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.noPainBtn{
+    &:hover{
+        background-color: black;
+    }
+}
+.noPainimg{
+    width: 80%;
+    margin-bottom: 0;
+    margin-top: 25%;
+    
+}
+video{
+    width: 80%;
+    border-radius: 20px;
+}
+/*******************************************end no pain styles**********************************************/
+/***********************************start good knowledge styles**********************************************/
+.goodCardknow{
+    border: none;
+    background-color: #EAEAEA;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+    &:hover{
+        transform: translate(0px,-8px);
+}
+}
+.cardImageKnow{
+    width: 40%;
+}
+/***********************************end good knowledge styles**********************************************/
+
+.viewCoach{
+    background: url(../ViewsStyles/xfit_sec1-removebg-preview.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.viewCoachConatiner{
+    h2{
+        padding-top: 7%;
+    }
+}
+.onlineCard{
+    width: 30%;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    background-image: linear-gradient(#F1702B 2%, white 47%);
+    .card-img-top{
+        width: 40%;
+        margin-top: -23%;
+    }
+}
+

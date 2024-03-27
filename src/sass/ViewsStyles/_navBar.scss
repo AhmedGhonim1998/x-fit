@@ -1,0 +1,18 @@
+.contactNavBtn {
+    &:hover{
+        background-color: #F1702B;
+    }
+}
+.navBar{
+    background-color: white !important;
+    img{
+        width: 7%;
+    }
+}
+.linkGroups{
+    font-size: 1.2em;
+    transition: .2s;
+    &:hover{
+        color: #F1702B !important;
+    }
+}

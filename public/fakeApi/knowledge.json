@@ -1,0 +1,26 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./goodHealthImg/first.png",
+        "des": "Protein in Human Body" 
+    },
+    {
+        "id": 2, 
+        "image": "./goodHealthImg/sec.png",
+        "des": "Natural vs. Enhanced Bodybuilding " 
+    },
+    {
+        "id": 3, 
+        "image": "./goodHealthImg/third.png",
+        "des": "Carbs in human body" 
+    },
+    {
+        "id": 4, 
+        "image": "./goodHealthImg/forth.png",
+        "des": "Nutritional facts for food items" 
+    }
+]
+    
+    
+    

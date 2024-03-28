@@ -27,6 +27,16 @@
             }
         }
     }
+    .footerRow{
+        width: 50%;
+        margin: auto;
+        .footerCol{
+            margin-bottom: 7%;
+        }
+        .secCol{
+            margin-bottom: 7%;
+        }
+    }
 }
 @media (max-width:800px) {
     :root{

@@ -5,6 +5,7 @@ import './App.css'
 import { Routes, Route } from "react-router-dom"
 import NavBar from './majourCompanents/NavBar'
 import Home from './views/Home'
+import Footer from './majourCompanents/Footer'
 function App() {
   
 
@@ -14,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/' Component={Home}/>
     </Routes>
-
+    <Footer/>
     </>
   )
 }

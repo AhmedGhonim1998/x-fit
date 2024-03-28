@@ -1,0 +1,21 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./certificateImg/certificate1.png",
+        "title": "Internationally Certified Coaches" ,
+        "des": "Get expert help and guidance and achieve the results you desire" 
+    },
+    {
+        "id": 2, 
+        "image": "./certificateImg/certificate2.png",
+        "title": "Customised plans for your goals" ,
+        "des": "    Forget the one-size-fits-all approach! Personalised diet and workout plans that work for YOU!" 
+    },
+    {
+        "id": 3, 
+        "image": "./certificateImg/certificate3.png",
+        "title": "30-day money-back guarantee" ,
+        "des": "Try X-Fit risk-free, with our 'no questions asked' refund policy" 
+    }
+]

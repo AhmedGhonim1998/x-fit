@@ -10,7 +10,7 @@ export default function OnlineCard() {
                             <Card.Text>
                             1-on-1 online session
                             </Card.Text>
-                            <Button variant="primary" className='sec'>Go somewhere</Button>
+                            <Button variant="primary" className='sec'>View Coach</Button>
                         </Card.Body>
             </Card>
         </>

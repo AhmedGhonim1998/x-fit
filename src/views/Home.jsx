@@ -4,6 +4,7 @@ import Video from '../profile/Video'
 import H2 from '../profile/H2'
 import  { useState, useEffect } from 'react';
 import OnlineCard from '../profile/OnlineCard';
+import CerFetch from '../profile/CerFetch';
 export default function Home() {
     const [posts, setPosts] = useState([]);
 
@@ -43,7 +44,7 @@ export default function Home() {
             </section>
         {/***********************************end no pain section****************************************/}
         {/***********************************start good knowledge section*******************************/}
-        <section className='goodKnowledge'>
+        <section className='goodKnowledge my-5'>
             <H2 content='Good Health for Starts with Good Knowledge'/>
             <Row className='goodKnlowledgeRow px-5 mt-3 mb-5'>
             {posts.length > 0 ?
@@ -70,9 +71,18 @@ export default function Home() {
                 <div className='downViewCoach'>
                     <OnlineCard/>
                 </div>
-        {/***********************************start a view coach***************************************/}
             </div>
         </section>
+        {/***********************************end a view coach***************************************/}
+        {/***********************************start certifications***********************************/}
+        <section className='certifications'>
+            <div className='cerConatiner'>
+                <Row className='cerRow px-4'>
+                    <CerFetch/>
+                </Row>
+            </div>
+        </section>
+        {/***********************************start certifications***********************************/}
         </>
     )
 }

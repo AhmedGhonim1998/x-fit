@@ -37,6 +37,7 @@ video{
     width: 40%;
 }
 /***********************************end good knowledge styles**********************************************/
+/***********************************start view coach styles**********************************************/
 
 .viewCoach{
     background: url(../ViewsStyles/xfit_sec1-removebg-preview.png);
@@ -58,6 +59,17 @@ video{
     .card-img-top{
         width: 40%;
         margin-top: -23%;
+    }
+}
+/***********************************end view coach styles**********************************************/
+/***********************************start certifications styles****************************************/
+.cerCard{
+    border: none;
+    .cerImg{
+        width: 30%;
+    }
+    .cerTitle{
+        font-weight: bold;
     }
 }
 

@@ -16,6 +16,17 @@
         padding-top: 15%;
         padding-bottom: 10%;
     }
+    .joinRow{
+        @include flexLibrary;
+        .joinImage{
+            width: 80% !important;
+            margin-top: 7%;
+            .imgJoin{
+                width: 80% !important;
+                
+            }
+        }
+    }
 }
 @media (max-width:800px) {
     :root{

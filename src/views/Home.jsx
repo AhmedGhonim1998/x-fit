@@ -5,6 +5,8 @@ import H2 from '../profile/H2'
 import  { useState, useEffect } from 'react';
 import OnlineCard from '../profile/OnlineCard';
 import CerFetch from '../profile/CerFetch';
+
+import JoinUs from '../profile/JoinUs';
 export default function Home() {
     const [posts, setPosts] = useState([]);
 
@@ -44,7 +46,7 @@ export default function Home() {
             </section>
         {/***********************************end no pain section****************************************/}
         {/***********************************start good knowledge section*******************************/}
-        <section className='goodKnowledge my-5'>
+        <section className='goodKnowledge my-5 mx-4'>
             <H2 content='Good Health for Starts with Good Knowledge'/>
             <Row className='goodKnlowledgeRow px-5 mt-3 mb-5'>
             {posts.length > 0 ?
@@ -75,7 +77,7 @@ export default function Home() {
         </section>
         {/***********************************end a view coach***************************************/}
         {/***********************************start certifications***********************************/}
-        <section className='certifications'>
+        <section className='certifications mx-4'>
             <div className='cerConatiner'>
                 <Row className='cerRow px-4'>
                     <CerFetch/>
@@ -83,6 +85,25 @@ export default function Home() {
             </div>
         </section>
         {/***********************************start certifications***********************************/}
+        {/***********************************start join  us***********************************/}
+        <section className='joinUs px-5 my-5'>
+            <Row className='joinRow'>
+                <Col lg={6} md={12} sm={12} className='my-auto joinCol'>
+                    <h2 className='font-weight-bold text-start mb-4'>Why Join Us ?</h2>
+                    <p className='w-75 mb-4'>Lose weight, build muscle, get healthy.
+                    Whatever your fitness goal, we have a coach
+                    for you!</p>
+                    <div className='mt-4 checkOutClass'>
+                        <JoinUs/>
+                    </div>
+                </Col>
+
+                <Col lg={6} md={12} sm={12} className='joinImage'>
+                    <img src="./image/coaches.png" alt="img" className='imageJoin'/>
+                </Col>
+            </Row>
+        </section>
+        {/***********************************start join  us***********************************/}
         </>
     )
 }

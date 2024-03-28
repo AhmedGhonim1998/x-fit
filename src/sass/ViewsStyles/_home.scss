@@ -61,6 +61,9 @@ video{
         margin-top: -23%;
     }
 }
+.TrainingTitle{
+    font-weight: bold;
+}
 /***********************************end view coach styles**********************************************/
 /***********************************start certifications styles****************************************/
 .cerCard{
@@ -72,4 +75,17 @@ video{
         font-weight: bold;
     }
 }
+/***********************************end certifications styles****************************************/
+/***********************************start join us styles****************************************/
+.checkRight{
+    color: #068D14;
+}
+.joinImage{
+    width: 40% !important;
+    .imageJoin{
+        width: 100% !important;
+    }
+}
+/***********************************end join us styles****************************************/
+
 

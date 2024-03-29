@@ -1,0 +1,8 @@
+@import './variables';
+
+.loseWeight{
+    @include coverLibrary;
+}
+.loseWeightImg{
+    width: 80%;
+}

@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom"
 import NavBar from './majourCompanents/NavBar'
 import Home from './views/Home'
 import Footer from './majourCompanents/Footer'
+import GetCoach from './views/GetCoach'
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
     <NavBar/>
     <Routes>
       <Route path='/' Component={Home}/>
+      <Route path='/getcoach' Component={GetCoach}/>
     </Routes>
     <Footer/>
     </>

@@ -21,3 +21,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+@mixin coverLibrary(){
+    background: url(../ViewsStyles/xfit_sec1-removebg-preview.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

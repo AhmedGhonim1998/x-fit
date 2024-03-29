@@ -1,12 +1,13 @@
 @import './variables';
-
+/**********************************start lose weigth styles**************************************/
 .loseWeight{
     @include coverLibrary;
 }
 .loseWeightImg{
     width: 80%;
 }
-
+/**********************************end lose weigth styles**************************************/
+/**********************************start coaches styles***************************************/
 .h2Trainers{
     background-color: #F1702B;
     width: 200px;
@@ -18,3 +19,21 @@
         text-align: center;
     }
 }
+
+.cardCoaches{
+    background-color: #33778A !important;
+    p{
+        color: white;
+    }
+    .star{
+        color:#F1702B ;
+    }
+    .ptnPlans{
+        width: 150px;
+    }
+    .coachName{
+        font-size: 1.2rem;
+    }
+}
+/**********************************end coaches styles**************************************/
+

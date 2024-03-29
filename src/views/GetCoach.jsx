@@ -2,8 +2,23 @@ import React from 'react'
 import { Container, Row, Col, Button, Spinner, Card } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import JoinUs from '../profile/JoinUs'
-
+import  { useState, useEffect } from 'react';
+import { RiStarSFill } from "react-icons/ri";
+import H2 from '../profile/H2';
+import OnlineCard from '../profile/OnlineCard';;
 export default function GetCoach() {
+
+    const [coaches, setCoaches] = useState([]);
+
+    let getCoaches = () => {
+        fetch("./fakeApi/coachesData.json")
+            .then(res => res.json())
+            .then(data => setCoaches(data))
+    }
+    useEffect(()=>
+    {
+        getCoaches()
+    },[])
     return (
         <>
             {/****************************start lose weight section*****************************************/}
@@ -27,7 +42,7 @@ export default function GetCoach() {
             </section>
             {/****************************end lose weight section*****************************************/}
             {/****************************start our trainers section**************************************/}
-            <section className='ourTrainers'>
+            <section className='ourTrainers py-5'>
                 <div className='ourTrainersContainer'>
                     <div className="upperTrainers">
                         <div className='d-flex justify-content-center headingContainer mx-auto'>
@@ -44,8 +59,44 @@ export default function GetCoach() {
                             <NavLink className='nav-link text-capitalize ms-3' to='/getcoach'>get a coach</NavLink>
                         </div>
                     </div>
+
+                    <div className="lowerTrainers">
+                        <Row className='lowerTrainersRow px-3'>
+                        {coaches.length > 0 ?
+                            coaches.map(coaches =>
+                            <Col lg={4} md={6} sm={12} key={coaches.id} className='my-3'>
+                                <Card className="h-100 goodCardknow cardCoaches py-4">
+                                    
+                                    <Card.Img variant="top" src={coaches.image} loading="lazy"  className='cardImageKnow mx-auto'/>
+                                    <Card.Text className='text-center coachName text-capitalize'>{coaches.name}</Card.Text>
+                                    <hr />
+                                    <div className='cardBody d-flex justify-content-center'>
+                                        <p>{coaches.rating}</p>
+                                        <RiStarSFill className='mt-1 star'/>
+                                        <p>{coaches.peopleCoached}</p>
+                                    </div>
+                                    <Button variant='primary' className='sec ptnPlans text-capitalize mx-auto'>see plans</Button>
+                                </Card>
+                            </Col>
+                        )
+                        :
+                        <Spinner animation="grow" className="m-auto" />
+                    }
+                        </Row>
+                    </div>
                 </div>
             </section>
+
+            {/***********************************start a view coach***************************************/}
+                <section className='viewCoach mb-5'>
+                    <div className='viewCoachConatiner'>
+                            <H2 content='Looking for other coaches?'/>
+                        <div className='downViewCoach'>
+                            <OnlineCard/>
+                        </div>
+                    </div>
+                </section>
+        {/***********************************end a view coach***************************************/}
         </>
     )
 }

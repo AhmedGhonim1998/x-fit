@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card ,Button} from 'react-bootstrap'
+import { NavLink } from "react-router-dom";
 export default function OnlineCard() {
     return (
         <>
@@ -10,7 +11,7 @@ export default function OnlineCard() {
                             <Card.Text>
                             1-on-1 online session
                             </Card.Text>
-                            <Button variant="primary" className='sec'>View Coach</Button>
+                            <Button variant="primary" className='sec'><NavLink to="./getcoach" className="nav-link text-capitalize">view caoches</NavLink></Button>
                         </Card.Body>
             </Card>
         </>

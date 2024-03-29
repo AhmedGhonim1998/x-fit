@@ -1,0 +1,45 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./coachesImages/firstCoach.png",
+        "name": "abdullah ibrahim" ,
+        "rating": "4.9",
+        "peopleCoached":"244 people coached"
+    },
+    {
+        "id": 2, 
+        "image": "./coachesImages/secondCoach.png",
+        "name": "hossam monir" ,
+        "rating": "4.5",
+        "peopleCoached":"150 people coached"
+    },
+    {
+        "id": 3, 
+        "image": "./coachesImages/thirdCoach.png",
+        "name": "samuel dawda" ,
+        "rating": "4.8",
+        "peopleCoached":"203 people coached"
+    },
+    {
+        "id": 4, 
+        "image": "./coachesImages/forthCoach.png",
+        "name": "damyan wayne" ,
+        "rating": "4.0",
+        "peopleCoached":"100 people coached"
+    },
+    {
+        "id": 5, 
+        "image": "./coachesImages/fifthCoach.png",
+        "name": "albert grayson" ,
+        "rating": "3.9",
+        "peopleCoached":"89 people coached"
+    },
+    {
+        "id": 6, 
+        "image": "./coachesImages/sixthCoach.png",
+        "name": "willaim games" ,
+        "rating": "4.2",
+        "peopleCoached":"78 people coached"
+    }
+]

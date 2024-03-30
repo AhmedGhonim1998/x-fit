@@ -1,0 +1,11 @@
+@import'./variables';
+
+.loginCol{
+    @include flexLibrary;
+}
+.loginBtn{
+    width: 100px !important;
+}
+.signUp{
+    font-weight: bold;
+}

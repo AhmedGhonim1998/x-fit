@@ -10,6 +10,7 @@ import GetCoach from './views/GetCoach'
 import AboutUs from './views/AboutUs'
 import Login from './views/Login'
 import SignUP from './views/SignUP'
+import ContactUS from './views/ContactUS'
 function App() {
   
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/aboutus' Component={AboutUs}/>
       <Route path='/login' Component={Login}/>
       <Route path='/signup' Component={SignUP}/>
+      <Route path='/contactus' Component={ContactUS}/>
     </Routes>
     <Footer/>
     </>

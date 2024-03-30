@@ -5,7 +5,7 @@ import JoinUs from '../profile/JoinUs'
 import  { useState, useEffect } from 'react';
 import { RiStarSFill } from "react-icons/ri";
 import H2 from '../profile/H2';
-import OnlineCard from '../profile/OnlineCard';;
+import OnlineCard from '../profile/OnlineCard';
 export default function GetCoach() {
 
     const [coaches, setCoaches] = useState([]);

@@ -7,6 +7,7 @@ import NavBar from './majourCompanents/NavBar'
 import Home from './views/Home'
 import Footer from './majourCompanents/Footer'
 import GetCoach from './views/GetCoach'
+import AboutUs from './views/AboutUs'
 function App() {
   
 
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path='/' Component={Home}/>
       <Route path='/getcoach' Component={GetCoach}/>
+      <Route path='/aboutus' Component={AboutUs}/>
     </Routes>
     <Footer/>
     </>

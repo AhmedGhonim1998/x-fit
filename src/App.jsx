@@ -15,6 +15,7 @@ import Goodhealth from './views/Goodhealth'
 import Natural from './views/Natural'
 import Carbs from './views/Carbs'
 import Nutration from './views/Nutration'
+import TermsConditons from './views/TermsConditons'
 function App() {
   
 
@@ -32,6 +33,7 @@ function App() {
       <Route path='/natural' Component={Natural}/>
       <Route path='/carbs' Component={Carbs}/>
       <Route path='/nutration' Component={Nutration}/>
+      <Route path='/terms-conditions' Component={TermsConditons}/>
     </Routes>
     <Footer/>
     </>

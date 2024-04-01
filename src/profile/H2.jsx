@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function H2({content}) {
+export default function H2({content , name}) {
   return (
     <>
-    <h2 className='mx-auto'>{content}</h2>
+    <h2 className={name}>{content}</h2>
     </>
   )
 }

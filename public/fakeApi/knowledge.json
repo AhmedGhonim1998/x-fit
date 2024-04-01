@@ -3,22 +3,26 @@
     {
         "id": 1, 
         "image": "./goodHealthImg/first.png",
-        "des": "Protein in Human Body" 
+        "des": "Protein in Human Body" ,
+        "link":"/goodHealth"
     },
     {
         "id": 2, 
         "image": "./goodHealthImg/sec.png",
-        "des": "Natural vs. Enhanced Bodybuilding " 
+        "des": "Natural vs. Enhanced Bodybuilding " ,
+        "link":"/natural"
     },
     {
         "id": 3, 
         "image": "./goodHealthImg/third.png",
-        "des": "Carbs in human body" 
+        "des": "Carbs in human body" ,
+        "link":"/carbs"
     },
     {
         "id": 4, 
         "image": "./goodHealthImg/forth.png",
-        "des": "Nutritional facts for food items" 
+        "des": "Nutritional facts for food items" ,
+        "link":"/nutration"
     }
 ]
     

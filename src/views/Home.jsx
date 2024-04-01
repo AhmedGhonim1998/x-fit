@@ -5,6 +5,7 @@ import H2 from '../profile/H2'
 import  { useState, useEffect } from 'react';
 import OnlineCard from '../profile/OnlineCard';
 import CerFetch from '../profile/CerFetch';
+import { Link } from 'react-router-dom';
 
 import JoinUs from '../profile/JoinUs';
 export default function Home() {
@@ -52,11 +53,14 @@ export default function Home() {
             {posts.length > 0 ?
                         posts.map(posts =>
                             <Col lg={3} md={6} sm={12} key={posts.id} className='my-3'>
-                                <Card className="h-100 goodCardknow py-4">
-                                    
-                                    <Card.Img variant="top" src={posts.image} loading="lazy"  className='cardImageKnow mx-auto'/>
-                                        <Card.Text className='text-center'>{posts.des}</Card.Text>
-                                </Card>
+                                <Link to={posts.link} className='nav-link'>
+                                    <Card className="h-100 goodCardknow py-4" to={posts.link}>
+                                        
+                                        <Card.Img variant="top" src={posts.image} loading="lazy"  className='cardImageKnow mx-auto'/>
+                                            <Card.Text className='text-center'>{posts.des}</Card.Text>
+                                    </Card>
+                                </Link>
+                                
                             </Col>
                         )
                         :

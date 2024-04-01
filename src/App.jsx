@@ -11,6 +11,10 @@ import AboutUs from './views/AboutUs'
 import Login from './views/Login'
 import SignUP from './views/SignUP'
 import ContactUS from './views/ContactUS'
+import Goodhealth from './views/Goodhealth'
+import Natural from './views/Natural'
+import Carbs from './views/Carbs'
+import Nutration from './views/Nutration'
 function App() {
   
 
@@ -24,6 +28,10 @@ function App() {
       <Route path='/login' Component={Login}/>
       <Route path='/signup' Component={SignUP}/>
       <Route path='/contactus' Component={ContactUS}/>
+      <Route path='/goodhealth' Component={Goodhealth}/>
+      <Route path='/natural' Component={Natural}/>
+      <Route path='/carbs' Component={Carbs}/>
+      <Route path='/nutration' Component={Nutration}/>
     </Routes>
     <Footer/>
     </>

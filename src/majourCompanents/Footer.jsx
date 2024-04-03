@@ -7,13 +7,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Container, Row , Col , Button , Spinner , Card} from 'react-bootstrap'
+import img from "/image/x-fitLogo.png"
 export default function Footer() {
     return (
         <>
             <footer className='px-3'>
                 <Row className='footerRow py-4'>
                     <Col className='footerCol' lg={4} md={12} sm={12}>
-                        <img src="./image/x-fitLogo.png" alt="img" className='footerImg'/>
+                        <img src={img} alt="img" className='footerImg'/>
                         <p className='text-white ms-3'>BE fit with X-FIT</p>
 
                         <div className='FooterIcons'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Spinner, Card } from 'react-bootstrap';
-import { NavLink } from "react-router-dom";
+import { NavLink , Link} from "react-router-dom";
 import JoinUs from '../profile/JoinUs'
 import  { useState, useEffect } from 'react';
 import { RiStarSFill } from "react-icons/ri";
@@ -75,7 +75,9 @@ export default function GetCoach() {
                                         <RiStarSFill className='mt-1 star'/>
                                         <p>{coaches.peopleCoached}</p>
                                     </div>
-                                    <Button variant='primary' className='sec ptnPlans text-capitalize mx-auto'>see plans</Button>
+                                    <Link to={coaches.link} className='mx-auto'>
+                                    <Button variant='primary' className='sec ptnPlans text-capitalize mx-auto' >view profile</Button>
+                                    </Link>
                                 </Card>
                             </Col>
                         )

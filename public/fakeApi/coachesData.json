@@ -5,41 +5,48 @@
         "image": "./coachesImages/firstCoach.png",
         "name": "abdullah ibrahim" ,
         "rating": "4.9",
-        "peopleCoached":"244 people coached"
+        "peopleCoached":"244 people coached",
+        "link":"/getcoach/abdulrahman-ibrahim"
     },
     {
         "id": 2, 
         "image": "./coachesImages/secondCoach.png",
         "name": "hossam monir" ,
         "rating": "4.5",
-        "peopleCoached":"150 people coached"
+        "peopleCoached":"150 people coached",
+        "link":"/getcoach/hossam-monir"
     },
     {
         "id": 3, 
         "image": "./coachesImages/thirdCoach.png",
         "name": "samuel dawda" ,
         "rating": "4.8",
-        "peopleCoached":"203 people coached"
+        "peopleCoached":"203 people coached",
+        "link":"/getcoach/samuel-dawda"
     },
     {
         "id": 4, 
         "image": "./coachesImages/forthCoach.png",
         "name": "damyan wayne" ,
         "rating": "4.0",
-        "peopleCoached":"100 people coached"
+        "peopleCoached":"100 people coached",
+        "link":"/getcoach/damyan-wayne"
     },
     {
         "id": 5, 
         "image": "./coachesImages/fifthCoach.png",
         "name": "albert grayson" ,
         "rating": "3.9",
-        "peopleCoached":"89 people coached"
+        "peopleCoached":"89 people coached",
+        "link":"/getcoach/albert-grayson"
+
     },
     {
         "id": 6, 
         "image": "./coachesImages/sixthCoach.png",
         "name": "willaim games" ,
         "rating": "4.2",
-        "peopleCoached":"78 people coached"
+        "peopleCoached":"78 people coached",
+        "link":"/getcoach/william-games"
     }
 ]

@@ -3,6 +3,7 @@ import { Container , Nav , Navbar , Button } from 'react-bootstrap'
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom'
 import Profile from '../profile/Profile';
+import img from "/image/x-fitLogo.png"
 export default function NavBar() {
     return (
         <div>

@@ -16,6 +16,13 @@ import Natural from './views/Natural'
 import Carbs from './views/Carbs'
 import Nutration from './views/Nutration'
 import TermsConditons from './views/TermsConditons'
+import AbdulahIbrahim from './majourProfile/AbdulahIbrahim'
+import HossamMonir from './majourProfile/HossamMonir'
+import SamDwida from "./majourProfile/SamDwida";
+import DamWayne from "./majourProfile/DamWayne";
+import Albert from "./majourProfile/Albert";
+import William from "./majourProfile/William";
+
 function App() {
   
 
@@ -34,6 +41,12 @@ function App() {
       <Route path='/carbs' Component={Carbs}/>
       <Route path='/nutration' Component={Nutration}/>
       <Route path='/terms-conditions' Component={TermsConditons}/>
+      <Route path='/getcoach/abdulrahman-ibrahim' Component={AbdulahIbrahim}/>
+      <Route path='/getcoach/hossam-monir' Component={HossamMonir}/>
+      <Route path='/getcoach/samuel-dawda' Component={SamDwida}/>
+      <Route path='/getcoach/damyan-wayne' Component={DamWayne}/>
+      <Route path='/getcoach/albert-grayson' Component={Albert}/>
+      <Route path='/getcoach/william-games' Component={William}/>
     </Routes>
     <Footer/>
     </>

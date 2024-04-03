@@ -85,7 +85,7 @@ export default function ProfileDesc({ peopleCoached, reviews, aboutHim }) {
 
 
                         <Col className='descCol' lg={6} md={12} sm={12}>
-                            <h5 className='text-capitalize text-start mb-4 aboutMe'>about me</h5>
+                            <h5 className='text-capitalize text-start mb-4 aboutMe mt-4'>about me</h5>
                             <Card body className='cardRev'>{aboutHim}</Card>
 
                             <Card body className='mt-4 cardRev'>

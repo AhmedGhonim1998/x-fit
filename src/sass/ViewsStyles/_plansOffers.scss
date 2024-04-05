@@ -1,0 +1,44 @@
+.cardRecomend{
+    .card-body{
+        padding: 0;
+    }
+    background-image: linear-gradient(to right, #967B36 , #F0D99D);
+    .parRecommend{
+        font-weight: bold;
+    }
+
+}
+.cardOffer{
+    border-radius: 30px;
+}
+.weeks{
+    background-color: none;
+    border-radius: 30px;
+    border: 1px solid;
+    height: 30px;
+    line-height: 30px;
+    width: 90px;
+}
+.transformPlan{
+    background-color: #FFFCF4;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 30px;
+}
+.saveing{
+    p{
+        color: #068D14;
+    }
+}
+.partnerPlan{
+    border: none;
+    background-color: white !important;
+}
+.checkinPlan{
+    color: #068D14;
+}
+h5{
+    font-weight: bold;
+}
+.trainingCoach{
+    color: #747171;
+}

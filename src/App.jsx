@@ -22,6 +22,12 @@ import SamDwida from "./majourProfile/SamDwida";
 import DamWayne from "./majourProfile/DamWayne";
 import Albert from "./majourProfile/Albert";
 import William from "./majourProfile/William";
+import AbdulrahmanPlan from './plansProfile/AbdulrahmanPlan'
+import AlbertPlan from './plansProfile/AlbertPlan'
+import DamyanPlan from './plansProfile/DamyanPlan'
+import HossamPlan from './plansProfile/HossamPlan'
+import SamPlan from './plansProfile/SamPlan'
+import WilliamPlan from './plansProfile/WilliamPlan'
 
 function App() {
   
@@ -47,6 +53,12 @@ function App() {
       <Route path='/getcoach/damyan-wayne' Component={DamWayne}/>
       <Route path='/getcoach/albert-grayson' Component={Albert}/>
       <Route path='/getcoach/william-games' Component={William}/>
+      <Route path='/getcoach/abdulrahman-ibrahim/abdulrahman-plan' Component={AbdulrahmanPlan}/>
+      <Route path='/getcoach/albert-grayson/albert-plan' Component={AlbertPlan}/>
+      <Route path='/getcoach/damyan-wayne/damyan-plan' Component={DamyanPlan}/>
+      <Route path='/getcoach/hossam-monir/hossam-plan' Component={HossamPlan}/>
+      <Route path='/getcoach/samuel-dawda/samuel-plan' Component={SamPlan}/>
+      <Route path='/getcoach/william-games/william-plan' Component={WilliamPlan}/>
     </Routes>
     <Footer/>
     </>

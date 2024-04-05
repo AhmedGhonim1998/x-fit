@@ -8,7 +8,7 @@ import H2 from '../profile/H2';
 import OnlineCard from '../profile/OnlineCard';
 import cover from '/ProfileImages/cover.png'
 
-export default function ProfileContent({ Imgsrc, coachName }) {
+export default function ProfileContent({ Imgsrc, coachName, link }) {
     return (
         <>
             <section className='profile px-3'>
@@ -36,7 +36,9 @@ export default function ProfileContent({ Imgsrc, coachName }) {
                                 </div>
                             </div>
                             <div className="buttonImg my-auto">
-                            <Button variant='primary' className='pri ms-auto text-capitalize'>see plans</Button>
+                                <Link to={link}>
+                                    <Button variant='primary' className='pri ms-auto text-capitalize'>see plans</Button>
+                                </Link>
 
                             </div>
                         </Card.Body>

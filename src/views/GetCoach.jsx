@@ -42,7 +42,7 @@ export default function GetCoach() {
             </section>
             {/****************************end lose weight section*****************************************/}
             {/****************************start our trainers section**************************************/}
-            <section className='ourTrainers py-5'>
+            <section className='ourTrainers py-5 px-3'>
                 <div className='ourTrainersContainer'>
                     <div className="upperTrainers">
                         <div className='d-flex justify-content-center headingContainer mx-auto'>

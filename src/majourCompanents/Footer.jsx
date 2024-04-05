@@ -42,7 +42,7 @@ export default function Footer() {
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>Company</h4>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/aboutus'>about us</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/becomeacoach'>become a coach</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus'>become a coach</NavLink>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus'>help & support</NavLink>
                                 <NavLink className="text-capitalize text-white nav-link" to='/contactus'>contact us</NavLink>
                             </Col>
@@ -50,7 +50,7 @@ export default function Footer() {
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>services</h4>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>online coaching</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/becomeacoach'>Corporate Wellness</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>Corporate Wellness</NavLink>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>weight loss diet plan</NavLink>
                             </Col>
 

@@ -11,7 +11,7 @@ export default function OnlineCard() {
                             <Card.Text>
                             1-on-1 online session
                             </Card.Text>
-                            <Button variant="primary" className='sec'><NavLink to="./getcoach" className="nav-link text-capitalize">view caoches</NavLink></Button>
+                            <Button variant="primary" className='sec'><NavLink to="/getcoach" className="nav-link text-capitalize">view caoches</NavLink></Button>
                         </Card.Body>
             </Card>
         </>

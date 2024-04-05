@@ -29,6 +29,7 @@ import HossamPlan from './plansProfile/HossamPlan'
 import SamPlan from './plansProfile/SamPlan'
 import WilliamPlan from './plansProfile/WilliamPlan'
 import PrivacyPolicy from './views/PrivacyPolicy'
+import PaymentMethod from './views/PaymentMethod'
 
 function App() {
   
@@ -61,6 +62,7 @@ function App() {
       <Route path='/getcoach/samuel-dawda/samuel-plan' Component={SamPlan}/>
       <Route path='/getcoach/william-games/william-plan' Component={WilliamPlan}/>
       <Route path='/privacy-policy' Component={PrivacyPolicy}/>
+      <Route path='/payment-method' Component={PaymentMethod}/>
     </Routes>
     <Footer/>
     </>

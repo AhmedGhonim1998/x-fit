@@ -59,7 +59,7 @@ export default function Footer() {
                                 <h4 className='text-white text-uppercase mb-3'>legal</h4>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/terms-conditions'>terms & conditions</NavLink>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/privacy-policy'>privacy policy</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/refund'>refund policy</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/payment-method'>payment method</NavLink>
                             </Col>
                         </Row>
                     </Col>

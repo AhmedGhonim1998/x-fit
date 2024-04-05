@@ -44,6 +44,7 @@ export default function ContactUS() {
                                 <p className='mt-0'>+20 111-460-5984</p>
                             </div>
                         </div>
+                        <Button className='pri text-capitalize mb-4 mt-2'>chat with us</Button>
                     </Col>
 
                     <Col className='loginCol imgLogin mt-3' lg={6} md={12} sm={12}>

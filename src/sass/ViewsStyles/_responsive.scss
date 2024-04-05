@@ -67,6 +67,15 @@
             font-size: 1rem;
         }
     }
+    .paymentImages{
+        @include flexLibrary;
+        .fawry{
+            margin-right: 0 !important;
+        }
+        .instapay{
+            margin-left:0 !important;
+        }
+    }
 }
 @media (max-width:500px) {
     h1{

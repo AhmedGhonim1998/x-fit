@@ -28,6 +28,7 @@ import DamyanPlan from './plansProfile/DamyanPlan'
 import HossamPlan from './plansProfile/HossamPlan'
 import SamPlan from './plansProfile/SamPlan'
 import WilliamPlan from './plansProfile/WilliamPlan'
+import PrivacyPolicy from './views/PrivacyPolicy'
 
 function App() {
   
@@ -59,6 +60,7 @@ function App() {
       <Route path='/getcoach/hossam-monir/hossam-plan' Component={HossamPlan}/>
       <Route path='/getcoach/samuel-dawda/samuel-plan' Component={SamPlan}/>
       <Route path='/getcoach/william-games/william-plan' Component={WilliamPlan}/>
+      <Route path='/privacy-policy' Component={PrivacyPolicy}/>
     </Routes>
     <Footer/>
     </>

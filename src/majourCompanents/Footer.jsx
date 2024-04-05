@@ -58,7 +58,7 @@ export default function Footer() {
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>legal</h4>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/terms-conditions'>terms & conditions</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/privacy'>privacy policy</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/privacy-policy'>privacy policy</NavLink>
                                 <NavLink className="text-capitalize text-white nav-link mb-2" to='/refund'>refund policy</NavLink>
                             </Col>
                         </Row>

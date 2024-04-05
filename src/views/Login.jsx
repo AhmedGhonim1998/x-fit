@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Spinner, Card } from 'react-bootstrap';
-import { NavLink } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import JoinUs from '../profile/JoinUs'
 import { useState, useEffect } from 'react';
 import { RiStarSFill } from "react-icons/ri";
@@ -36,8 +36,9 @@ export default function Login() {
                                     placeholder="Password"
                                 />
                             </InputGroup>
-
+                            <Link to='/'>
                             <Button className='pri text-capitalize loginBtn mt-4' variant='primary'>login</Button>
+                            </Link>
                             <div className="d-flex justify-content-center mt-4">
                                 <p className='text-capitalize me-2'>you don't have an account ? </p>
                                 <NavLink to='/signup' className='text-black text-capitalize signUp'> sign up</NavLink>

@@ -19,6 +19,10 @@ export default function GetCoach() {
     {
         getCoaches()
     },[])
+
+    let scrollUp=()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
             {/****************************start lose weight section*****************************************/}
@@ -75,7 +79,7 @@ export default function GetCoach() {
                                         <RiStarSFill className='mt-1 star'/>
                                         <p>{coaches.peopleCoached}</p>
                                     </div>
-                                    <Link to={coaches.link} className='mx-auto'>
+                                    <Link to={coaches.link} className='mx-auto' onClick={scrollUp}>
                                     <Button variant='primary' className='sec ptnPlans text-capitalize mx-auto' >view profile</Button>
                                     </Link>
                                 </Card>

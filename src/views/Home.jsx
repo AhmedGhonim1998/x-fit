@@ -20,6 +20,10 @@ export default function Home() {
     {
         getposts()
     },[])
+
+    let scrollUp=()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
         {/***********************************start no pain section****************************************/}
@@ -53,7 +57,7 @@ export default function Home() {
             {posts.length > 0 ?
                         posts.map(posts =>
                             <Col lg={3} md={6} sm={12} key={posts.id} className='my-3'>
-                                <Link to={posts.link} className='nav-link'>
+                                <Link to={posts.link} className='nav-link' onClick={scrollUp}>
                                     <Card className="h-100 goodCardknow py-4" to={posts.link}>
                                         
                                         <Card.Img variant="top" src={posts.image} loading="lazy"  className='cardImageKnow mx-auto'/>

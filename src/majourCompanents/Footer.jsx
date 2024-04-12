@@ -9,6 +9,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Container, Row , Col , Button , Spinner , Card} from 'react-bootstrap'
 import img from "/image/x-fitLogo.png"
 export default function Footer() {
+    let scrollUp=()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
             <footer className='px-3'>
@@ -41,25 +44,25 @@ export default function Footer() {
                         <Row className='secFooterRow'>
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>Company</h4>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/aboutus'>about us</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus'>become a coach</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus'>help & support</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link" to='/contactus'>contact us</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/aboutus' onClick={scrollUp}>about us</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus' onClick={scrollUp}>become a coach</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/contactus' onClick={scrollUp}>help & support</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link" to='/contactus' onClick={scrollUp}>contact us</NavLink>
                             </Col>
 
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>services</h4>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>online coaching</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>Corporate Wellness</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'>weight loss diet plan</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach' onClick={scrollUp}>online coaching</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'onClick={scrollUp}>Corporate Wellness</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/getcoach'onClick={scrollUp}>weight loss diet plan</NavLink>
                             </Col>
 
 
                             <Col lg={4} md={12} sm={12} className='secCol'>
                                 <h4 className='text-white text-uppercase mb-3'>legal</h4>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/terms-conditions'>terms & conditions</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/privacy-policy'>privacy policy</NavLink>
-                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/payment-method'>payment method</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/terms-conditions' onClick={scrollUp}>terms & conditions</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/privacy-policy' onClick={scrollUp}>privacy policy</NavLink>
+                                <NavLink className="text-capitalize text-white nav-link mb-2" to='/payment-method'onClick={scrollUp}>payment method</NavLink>
                             </Col>
                         </Row>
                     </Col>

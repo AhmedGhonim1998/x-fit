@@ -9,6 +9,9 @@ import OnlineCard from '../profile/OnlineCard';
 import cover from '/ProfileImages/cover.png'
 
 export default function ProfileContent({ Imgsrc, coachName, link }) {
+    let scrollUp=()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
             <section className='profile px-3'>
@@ -36,7 +39,7 @@ export default function ProfileContent({ Imgsrc, coachName, link }) {
                                 </div>
                             </div>
                             <div className="buttonImg my-auto">
-                                <Link to={link}>
+                                <Link to={link} onClick={scrollUp}>
                                     <Button variant='primary' className='pri ms-auto text-capitalize'>see plans</Button>
                                 </Link>
 

@@ -9,6 +9,9 @@ import OnlineCard from '../profile/OnlineCard';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 export default function SignUP() {
+    let scrollUp=()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
         <section className='signUp px-3'>
@@ -54,13 +57,13 @@ export default function SignUP() {
                         />
                     </InputGroup>
                     <Link to='/login'>
-                    <Button className='pri text-capitalize loginBtn mt-4' variant='primary'>sign up</Button>
+                    <Button className='pri text-capitalize loginBtn mt-4' variant='primary' onClick={scrollUp}>sign up</Button>
                     </Link>
 
 
                     <div className="d-flex justify-content-center mt-4">
                         <p className='text-capitalize me-2'>you don't have an account ? </p>
-                        <NavLink to='/login' className='text-black text-capitalize signUp'> login</NavLink>
+                        <NavLink to='/login' className='text-black text-capitalize signUp' onClick={scrollUp}> login</NavLink>
                     </div>
                 </Col>
 

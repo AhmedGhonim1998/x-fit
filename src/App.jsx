@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import reactLogo from './assets/x-fitLogo.png'
+import viteLogo from '../public/image/x-fitLogo.png'
 import './App.css'
 import { Routes, Route } from "react-router-dom"
 import NavBar from './majourCompanents/NavBar'

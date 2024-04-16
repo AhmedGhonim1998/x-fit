@@ -29,7 +29,7 @@ export default function GetCoach() {
             <section className='loseWeight'>
                 <div className='loseWeightContainer pt-5 px-3'>
                     <Row className='loseweightRow'>
-                        <Col className='loseWeightCol my-auto' lg={8} md={12} sm={12}>
+                        <Col className='loseWeightCol my-auto ps-5' lg={8} md={12} sm={12}>
                             <p className='text-capitalize mb-5 mt-4'>online personal training</p>
                             <h4 className='text-capitalize text-start w-75 mb-5'>lose weight, build muscle, get healthy. whatever your
                                 fitness goal, we have a coach for you!</h4>
@@ -46,15 +46,15 @@ export default function GetCoach() {
             </section>
             {/****************************end lose weight section*****************************************/}
             {/****************************start our trainers section**************************************/}
-            <section className='ourTrainers py-5 px-3'>
+            <section className='ourTrainers py-5 px-5'>
                 <div className='ourTrainersContainer'>
                     <div className="upperTrainers">
                         <div className='d-flex justify-content-center headingContainer mx-auto'>
                             <div className='firstHead@'>
-                            <h2 className='text-capitalize text-center'>meet</h2>
+                            <h2 className='text-capitalize text-center my-auto mt-1'>meet</h2>
                             </div>
                             <div className='ms-2 h2Trainers'>
-                                <h2 className='text-capitalize text-center '>our trainers</h2>
+                                <h2 className='text-capitalize text-center mb-0 my-auto mx-auto mt-1'>our trainers</h2>
                             </div>
                         </div>
                         <h4 className='text-start text-capitalize ps-3'>fitness & nutrition coaches</h4>

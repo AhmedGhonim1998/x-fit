@@ -18,7 +18,6 @@ export default function SignUP() {
             <Row className='loginRow my-5'>
                 <Col className='loginCol my-auto ' lg={6} md={12} sm={12}>
                     <InputGroup className="mb-5">
-                        <InputGroup.Text>First and last name</InputGroup.Text>
                         <Form.Control aria-label="First name" placeholder='First Name' />
                         <Form.Control aria-label="Last name" placeholder='Last Name' />
                     </InputGroup>
@@ -28,14 +27,11 @@ export default function SignUP() {
                             aria-label="Recipient's username"
                             aria-describedby="basic-addon2"
                         />
-                        <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
                     </InputGroup>
 
                     <InputGroup className="mb-5">
 
-                        <InputGroup.Text id="inputGroup-sizing-default">
-                            Password
-                        </InputGroup.Text>
+                        
                         <Form.Control
                             aria-label="Default"
                             type='password'
@@ -46,14 +42,12 @@ export default function SignUP() {
 
                     <InputGroup className="mb-5">
 
-                        <InputGroup.Text id="inputGroup-sizing-default">
-                            Re-Type Your Password
-                        </InputGroup.Text>
+                        
                         <Form.Control
                             aria-label="Default"
                             type='password'
                             aria-describedby="inputGroup-sizing-default"
-                            placeholder="Password"
+                            placeholder="Re-Type Your Password"
                         />
                     </InputGroup>
                     <Link to='/login'>
@@ -62,7 +56,7 @@ export default function SignUP() {
 
 
                     <div className="d-flex justify-content-center mt-4">
-                        <p className='text-capitalize me-2'>you don't have an account ? </p>
+                        <p className='text-capitalize me-2'>you have already account ? </p>
                         <NavLink to='/login' className='text-black text-capitalize signUp' onClick={scrollUp}> login</NavLink>
                     </div>
                 </Col>

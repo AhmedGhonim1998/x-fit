@@ -129,7 +129,7 @@ export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2
 
 
 
-                        <Col className='descCol my-auto' lg={6} md={12} sm={12}>
+                        <Col className='descCol my-auto mt-3' lg={6} md={12} sm={12}>
                             <Card body className='cardRev'>
                                 <h4 className='mb-5 mt-4'>What you will get in 12 weeks plan?</h4>
                                 <ul>

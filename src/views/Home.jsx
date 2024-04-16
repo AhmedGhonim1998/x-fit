@@ -30,19 +30,19 @@ export default function Home() {
             <section className='noPain'>
                 <div className='px-5 noPainMiddle'>
                     <Row className='noPainMiddleRow'>
-                        <Col lg={4} md={12} sm={12} className='py-5 my-auto'>
-                            <h1>No Pain</h1>
-                            <p>we believe that fitness is no just distination
+                        <Col lg={4} md={12} sm={12} className='py-5 my-auto painCol'>
+                            <h1 className='mb-5'>No Pain</h1>
+                            <p>We believe that fitness is no just distination
                             it's a journey Our-state-of-the-art-facility is
                             designed to inspire and empower you to reach
                             your health and wellness goals. 
                             </p>
-                            <Button variant='secondary' className='noPainBtn sec'>Explore More</Button>
+                            <Button variant='secondary' className='noPainBtn sec mt-4'>Explore More</Button>
                         </Col>
                         <Col lg={4} md={12} sm={12} className='imageCol'>
                             <img src="./image/image.png" alt="img" className='noPainimg'/>
                         </Col>
-                        <Col lg={4} md={12} sm={12} className='py-5 my-auto'>
+                        <Col lg={4} md={12} sm={12} className='py-5 my-auto video'>
                             <h1>No Gain</h1>
                             <Video/>
                         </Col>
@@ -52,7 +52,7 @@ export default function Home() {
         {/***********************************end no pain section****************************************/}
         {/***********************************start good knowledge section*******************************/}
         <section className='goodKnowledge my-5 mx-4'>
-            <H2 content='Good Health for Starts with Good Knowledge'/>
+            <H2 content='Good Health for Starts with Good Knowledge' name="w-100 goodhealthH2"/>
             <Row className='goodKnlowledgeRow px-5 mt-3 mb-5'>
             {posts.length > 0 ?
                         posts.map(posts =>
@@ -96,9 +96,9 @@ export default function Home() {
         {/***********************************start join  us***********************************/}
         <section className='joinUs px-5 my-5'>
             <Row className='joinRow'>
-                <Col lg={6} md={12} sm={12} className='my-auto joinCol'>
+                <Col lg={6} md={12} sm={12} className='my-auto joinCol ps-5'>
                     <h2 className='font-weight-bold text-start mb-4'>Why Join Us ?</h2>
-                    <p className='w-75 mb-4'>Lose weight, build muscle, get healthy.
+                    <p className='w-75 mb-4 loseWeightPar'>Lose weight, build muscle, get healthy.
                     Whatever your fitness goal, we have a coach
                     for you!</p>
                     <div className='mt-4 checkOutClass'>

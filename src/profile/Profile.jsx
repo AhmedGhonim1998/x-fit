@@ -3,7 +3,7 @@ import img from "/image/x-fitLogo.png"
 export default function Profile() {
     return (
         <>
-            <img src={img} alt="img" />
+            <img src={img} alt="img" className='logoNavBar'/>
         </>
     )
 }

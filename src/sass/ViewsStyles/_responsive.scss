@@ -37,6 +37,38 @@
             margin-bottom: 7%;
         }
     }
+    h1{
+        text-align: center;
+    }
+    .logoNavBar{
+        width: 15% !important;
+    }
+    .video{
+        @include flexLibrary;
+    }
+    .imageCol{
+        @include flexLibrary;
+    }
+    .painCol{
+        p{
+            text-align: center;
+        }
+        @include flexLibrary;
+    }
+    .loseWeightPar{
+        width: 100% !important;
+    }
+    .footerFlex{
+        @include flexLibrary;
+        .head4{
+            text-align: center;
+        }
+    }
+    .socialMedaiIcons{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 @media (max-width:800px) {
     :root{
@@ -92,7 +124,9 @@
             width: 100% !important;
         }
     }
-
+    .goodhealthH2{
+        font-size: 1rem !important;
+    }
     .termsContainer{
         p{
             font-size: .5rem;

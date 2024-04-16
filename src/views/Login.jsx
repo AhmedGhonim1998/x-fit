@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button, Spinner, Card } from 'react-bootstrap';
-import { NavLink , Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import JoinUs from '../profile/JoinUs'
 import { useState, useEffect } from 'react';
 import { RiStarSFill } from "react-icons/ri";
@@ -9,8 +9,8 @@ import OnlineCard from '../profile/OnlineCard';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 export default function Login() {
-    let scrollUp=()=>{
-        window.scroll(0,0);
+    let scrollUp = () => {
+        window.scroll(0, 0);
     }
     return (
         <>
@@ -24,14 +24,10 @@ export default function Login() {
                                     aria-label="Recipient's username"
                                     aria-describedby="basic-addon2"
                                 />
-                                <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
                             </InputGroup>
 
                             <InputGroup className="mb-3">
 
-                                <InputGroup.Text id="inputGroup-sizing-default">
-                                    Password
-                                </InputGroup.Text>
                                 <Form.Control
                                     aria-label="Default"
                                     type='password'
@@ -40,7 +36,7 @@ export default function Login() {
                                 />
                             </InputGroup>
                             <Link to='/'>
-                            <Button className='pri text-capitalize loginBtn mt-4' variant='primary' onClick={scrollUp}>login</Button>
+                                <Button className='pri text-capitalize loginBtn mt-4' variant='primary' onClick={scrollUp}>login</Button>
                             </Link>
                             <div className="d-flex justify-content-center mt-4">
                                 <p className='text-capitalize me-2'>you don't have an account ? </p>

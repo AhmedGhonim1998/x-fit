@@ -8,7 +8,7 @@ import { FaCheckSquare } from "react-icons/fa";
 
 const contain = [
     {
-        tail :'plans designed only for you',
+        tail :'Plans designed only for you',
         par:'Personalized fitness & nutrition consultation tailor-made for beginners—including diet plans, training programs, and weekly 1-on-1 guidance'
     },
     {
@@ -26,7 +26,7 @@ const contain = [
 ];
 
 
-export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2, saving3, partnerSav1, partnerSav2, Friends }) {
+export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2, saving3,saving4, partnerSav1, partnerSav2, Friends ,priceOffer }) {
     const items = contain.map(items=><li className='mb-5'><h5><FaCheckSquare className='checkinPlan me-3'/>
     {items.tail}</h5><p>{items.par}</p></li>)
 
@@ -59,20 +59,20 @@ export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2
                                         </div>
 
                                         <div className="offerContainer d-flex justify-content-start">
-                                            <div className="save me-3">
-                                                <p></p>
-                                            </div>
-
-                                            <div className="saveing text-capitalize me-3">
+                                            <div className="saveing text-capitalize me-4 ms-2">
                                                 <p className='text-uppercase text-center'>{saving1}</p>
                                             </div>
 
-                                            <div className="saveing text-capitaliz me-3">
+                                            <div className="saveing text-capitalize me-3 ms-3">
                                                 <p className='text-uppercase text-center'>{saving2}</p>
+                                            </div>
+
+                                            <div className="saveing text-capitaliz me-3 ms-3">
+                                                <p className='text-uppercase text-center'>{saving4}</p>
                                             </div>
                                         </div>
 
-                                        <p className='text-start mt-4'>200$/Week</p>
+                                        <p className='text-start mt-4'>{priceOffer}</p>
                                     </Card.Body>
                                 </Card>
 
@@ -114,7 +114,7 @@ export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2
 
                             <Card className='cardOffer mt-4'>
                                 <Card.Body className='p-3 transformPlan partnerPlan'>
-                                    <Card.Title className='text-capitalize mb-5'>partner transformation plan</Card.Title>
+                                    <Card.Title className='text-capitalize mb-5'>Family transformation plan</Card.Title>
                                     <div className="offerContainer d-flex flex-column justify-content-start mb-2">
                                         <div className="weeks twelveWeek me-3">
                                             <p className='text-capitalize text-center'>{offer1}</p>

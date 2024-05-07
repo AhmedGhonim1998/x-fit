@@ -17,11 +17,7 @@ const contain = [
     },
     {
         tail:'Continuous Support',
-        par:'Your coach is always just a phone call or message away (Sundays closed)'
-    },
-    {
-        tail:'X-FIT CVD Compensation Policy',
-        par:'In the unfortunate event of an eligible enrolled client’s death due to Cardiovascular Diseases (CVDs), the nominated beneficiary is eligible for compensation. All existing clients who have completed a minimum of 6 month period in a row and continue to stay active are eligible. Check T&C for details'
+        par:'Your coach is always just a phone call or message away (Fridays closed)'
     }
 ];
 
@@ -129,8 +125,8 @@ export default function CoachesOffers({ offer1, offer2, offer3, saving1, saving2
 
 
 
-                        <Col className='descCol my-auto mt-3' lg={6} md={12} sm={12}>
-                            <Card body className='cardRev'>
+                        <Col className='descCol my-auto' lg={6} md={12} sm={12}>
+                            <Card body className='cardRev mt-4'>
                                 <h4 className='mb-5 mt-4'>What you will get in 12 weeks plan?</h4>
                                 <ul>
                                     {items}
